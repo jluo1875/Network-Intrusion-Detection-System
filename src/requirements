@@ -1,0 +1,4 @@
+intervaltree==3.1.0
+scapy==2.4.5
+sortedcontainers==2.4.0
+tomlkit==0.9.2
