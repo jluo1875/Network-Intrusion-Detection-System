@@ -20,7 +20,7 @@ This intrusion detection system features:
 
 Detections are printed to stdout as individual JSON objects, one per line. 
 
-The format of a single detection is as follows.
+The format of a single detection is below.
 ```json
 {
     "tv_sec": 1600890293,           # Packet timestamp seconds (since UNIX epoch)
@@ -36,7 +36,7 @@ The format of a single detection is as follows.
     "attack": 0                     # Signature index in database (0-indexed)
 }
 ```
-The output is pretty printed for explanatorty purpose the actual output will be single lined
+The output is pretty printed for explanatory purposes, the actual output will be single lined.
 
 ### Build and Run
 
