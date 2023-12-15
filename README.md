@@ -1,5 +1,5 @@
 # Intrusion Detection System
-This Network Intrusion Detection System processes PCAP Files to detect attack using a signature database provided in TOML format. Each signatures in the file are regular expression over byte strings and are matched against IP datagram payloads and TCP streams.
+The Network Intrusion Detection System processes PCAP Files to detect attack using a signature database provided in TOML format. Each signatures in the file are regular expression over byte strings and are matched against IP datagram payloads and TCP streams.
 
 This intrusion detection system has the following capabilities:
 
