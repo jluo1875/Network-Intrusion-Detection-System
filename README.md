@@ -11,19 +11,19 @@ signatures = [
 ```
 This intrusion detection system features:
 
-- Bounded memory use during execution to prevent DoS attacks using buffer trimming
+- Bounded memory use during execution using buffer trimming to prevent DoS attacks
 - IPv4 and TCP checksum verification failing to which packets are dropped silently
 - Custom TCP stream reassembly implementing a first-received policy for overlapping segments
 - Do not track TCP sessions where initial TCP handshake was not observed
 
 ### Logging Detection
 
-Detections are printed to stdout as individual JSON objects, one per line. 
+Detections are printed to _stdout_ as individual JSON objects, one per line. 
 
 The format of a single detection is below.
 ```json
 {
-    "tv_sec": 1600890293,           # Packet timestamp seconds (since UNIX epoch)
+    "tv_sec": 1600890293,           # Packet timestamp in seconds
     "tv_usec": 0,                   # Packet timestamp microseconds field
     "source": {
         "ipv4_address": "10.0.0.1", # Source IPv4 address
@@ -40,9 +40,9 @@ The output is pretty printed for explanatory purposes, the actual output will be
 
 ### Build and Run
 
-To build and run this project, you need [docker](https://docs.docker.com/engine/install/) on your machine.
+To build and run this project, you need [docker](https://docs.docker.com/engine/install/) installed. 
 
-Once docker is installed, clone the repository, and follow these steps:
+Once docker is installed, clone the repository, and follow the steps below. 
 
 1. Build the docker image - `docker build --pull --rm -f "nids/Dockerfile" -t <image_name>:latest "nids"`
 2. Run the docker image - `docker run -it -m 256m -v $(pwd):/data <image_name}> /data/<database_filename> /data/<pcap_filename>`
