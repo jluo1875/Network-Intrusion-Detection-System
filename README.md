@@ -30,7 +30,7 @@ The format of a single detection is:
 ```
 The output is printed red for explanatory purposes, the actual output will be single lined.
 
-### Build and Run
+### Building and Running
 
 To build and run this project, you need [Docker](https://docs.docker.com/engine/install/) installed. 
 
