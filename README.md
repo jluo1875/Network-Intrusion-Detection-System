@@ -28,7 +28,7 @@ The format of a single detection is:
     "attack": 0                     # Signature index in database (0-indexed)
 }
 ```
-The output is printed red for explanatory purposes, the actual output will be single lined.
+The output is printed red for explanatory purposes.
 
 ### Build and Run
 
