@@ -32,7 +32,7 @@ The output is printed red for explanatory purposes, the actual output will be si
 
 ### Build and Run
 
-To build and run this system, you need [Docker](https://docs.docker.com/engine/install/) installed. 
+To build and run this, you will need [Docker](https://docs.docker.com/engine/install/) to be installed. 
 
 Once docker is installed, clone the repository, and follow the steps below. 
 
