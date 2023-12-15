@@ -30,9 +30,9 @@ The format of a single detection is:
 ```
 The output is printed red for explanatory purposes, the actual output will be single lined.
 
-### Building and Running
+### Build and Run
 
-To build and run this project, you need [Docker](https://docs.docker.com/engine/install/) installed. 
+To build and run this system, you need [Docker](https://docs.docker.com/engine/install/) installed. 
 
 Once docker is installed, clone the repository, and follow the steps below. 
 
