@@ -23,15 +23,15 @@ Detections are printed to _stdout_ as individual JSON objects, one per line.
 The format of a single detection is below.
 ```json
 {
-    "tv_sec": 1600890293,           # Packet timestamp in seconds
+    "tv_sec": 160074820,           # Packet timestamp in seconds
     "tv_usec": 0,                   # Packet timestamp microseconds field
     "source": {
         "ipv4_address": "10.0.0.1", # Source IPv4 address
-        "tcp_port": 34567           # Source TCP port, or null if N/A
+        "tcp_port": 1234           # Source TCP port, or null if N/A
     },
     "target": {
         "ipv4_address": "10.0.0.2", # Target IPv4 address
-        "tcp_port": 1234            # Target TCP port, or null if N/A
+        "tcp_port": 34567            # Target TCP port, or null if N/A
     },
     "attack": 0                     # Signature index in database (0-indexed)
 }
