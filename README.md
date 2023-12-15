@@ -40,7 +40,7 @@ The output is pretty printed for explanatory purposes, the actual output will be
 
 ### Build and Run
 
-To build and run this project, you need [docker installed](https://docs.docker.com/engine/install/) on your machine.
+To build and run this project, you need [docker](https://docs.docker.com/engine/install/) on your machine.
 
 Once docker is installed, clone the repository, and follow these steps:
 
