@@ -18,7 +18,7 @@ class AttackDB:
 
     def timeoutFlows(self, currTime):
         temp=list()
-        for k,v in self.sequences.items():
+        for k,v in self.sequences.items()
           if (currTime - v.lastPacketTime) > v.ttl:
              temp.append(k)
         for x in temp:
