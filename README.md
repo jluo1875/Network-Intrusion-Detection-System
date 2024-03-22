@@ -28,11 +28,10 @@ The format of a single detection is:
     "attack": 0                     # Signature index in database (0-indexed)
 }
 ```
-The output is printed red for explanatory purposes.
 
 ### Build and Run
 
-To build and run this, you will need [Docker](https://docs.docker.com/engine/install/) to be installed. 
+Install [Docker](https://docs.docker.com/engine/install/).
 
 Once docker is installed, clone the repository, and follow the steps below. 
 
